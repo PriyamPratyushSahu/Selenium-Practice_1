@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-01T13:34:07 IST" name="Suite" finished-at="2023-02-01T13:35:19 IST" duration-ms="72089">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidationsTest@5c7bfdc1]" name="LoginErrorValidation" class="rahulshettyacademy.Tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2023-02-01T13:34:07 IST" name="Submit Order Test" finished-at="2023-02-01T13:35:00 IST" duration-ms="53059">
+      <class name="rahulshettyacademy.Tests.StandAloneTestJsonParameter">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTestJsonParameter@70cf32e3]" started-at="2023-02-01T13:34:07 IST" name="launchApplication" finished-at="2023-02-01T13:34:10 IST" duration-ms="2984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.Tests.StandAloneTestJsonParameter@70cf32e3]" started-at="2023-02-01T13:34:10 IST" name="submitOrder" data-provider="getData" finished-at="2023-02-01T13:34:24 IST" duration-ms="14042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Priyam123, email=priyam@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="ClosingSession()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTestJsonParameter@70cf32e3]" started-at="2023-02-01T13:34:24 IST" name="ClosingSession" finished-at="2023-02-01T13:34:24 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingSession -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTestJsonParameter@70cf32e3]" started-at="2023-02-01T13:34:24 IST" name="launchApplication" finished-at="2023-02-01T13:34:26 IST" duration-ms="2476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.Tests.StandAloneTestJsonParameter@70cf32e3]" started-at="2023-02-01T13:34:26 IST" name="submitOrder" data-provider="getData" finished-at="2023-02-01T13:34:40 IST" duration-ms="13885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Priyam123, email=priyam@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="ClosingSession()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTestJsonParameter@70cf32e3]" started-at="2023-02-01T13:34:40 IST" name="ClosingSession" finished-at="2023-02-01T13:34:57 IST" duration-ms="16284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingSession -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTestJsonParameter@70cf32e3]" started-at="2023-02-01T13:34:57 IST" name="launchApplication" finished-at="2023-02-01T13:34:59 IST" duration-ms="2464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTestJsonParameter@70cf32e3]" started-at="2023-02-01T13:34:59 IST" name="OrderHistoryTest" finished-at="2023-02-01T13:35:00 IST" depends-on-methods="rahulshettyacademy.Tests.StandAloneTestJsonParameter.submitOrder" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="ClosingSession()[pri:0, instance:rahulshettyacademy.Tests.StandAloneTestJsonParameter@70cf32e3]" started-at="2023-02-01T13:35:00 IST" name="ClosingSession" finished-at="2023-02-01T13:35:00 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingSession -->
+      </class> <!-- rahulshettyacademy.Tests.StandAloneTestJsonParameter -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2023-02-01T13:35:00 IST" name="Error Validations Test" finished-at="2023-02-01T13:35:19 IST" duration-ms="18730">
+      <class name="rahulshettyacademy.Tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidationsTest@5c7bfdc1]" started-at="2023-02-01T13:35:00 IST" name="launchApplication" finished-at="2023-02-01T13:35:03 IST" duration-ms="2450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidationsTest@5c7bfdc1]" started-at="2023-02-01T13:35:03 IST" name="LoginErrorValidation" finished-at="2023-02-01T13:35:03 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="ClosingSession()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidationsTest@5c7bfdc1]" started-at="2023-02-01T13:35:03 IST" name="ClosingSession" finished-at="2023-02-01T13:35:03 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingSession -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidationsTest@5c7bfdc1]" started-at="2023-02-01T13:35:03 IST" name="launchApplication" finished-at="2023-02-01T13:35:06 IST" duration-ms="2447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidationsTest@5c7bfdc1]" started-at="2023-02-01T13:35:06 IST" name="ProductErrorValidation" finished-at="2023-02-01T13:35:19 IST" duration-ms="13204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="ClosingSession()[pri:0, instance:rahulshettyacademy.Tests.ErrorValidationsTest@5c7bfdc1]" started-at="2023-02-01T13:35:19 IST" name="ClosingSession" finished-at="2023-02-01T13:35:19 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingSession -->
+      </class> <!-- rahulshettyacademy.Tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
